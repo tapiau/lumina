@@ -110,12 +110,12 @@ class SystemTrayApp:
 
     def increase_brightness(self):
         new_brightness = self.controller.increase_brightness(5)
-        self.icon.notify(f"Increased brightness: {new_brightness}%", "Lumina")
+        # self.icon.notify(f"Increased brightness: {new_brightness}%", "Lumina")
         self.update_menu()
 
     def decrease_brightness(self):
         new_brightness = self.controller.decrease_brightness(5)
-        self.icon.notify(f"Decreased brightness: {new_brightness}%", "Lumina")
+        # self.icon.notify(f"Decreased brightness: {new_brightness}%", "Lumina")
         self.update_menu()
 
 
